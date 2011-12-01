@@ -1,5 +1,20 @@
-import usb.core
+#!/usr/bin/env python
+"""
+Library to interface with the l=Lascar EL3 datalogger
+""" 
+
 from datetime import datetime
+
+import usb.core #requires pyusb - http://sourceforge.net/apps/trac/pyusb/
+
+__author__ = "Ben Dixon"
+__copyright__ = "Copyright 2011, Ben Dixon (Hills Bede/ Dxnx Ltd)"
+__credits__ = ["Ben Dixon"]
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "Ben Dixon"
+__email__ = "ben@hillsbede.co.uk"
+__status__ = "Development"
 
 class dataLoggerEL3:
     
